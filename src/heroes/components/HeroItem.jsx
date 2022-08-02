@@ -3,13 +3,9 @@ import { Link } from 'react-router-dom';
 
 export const HeroItem = ({
     id,
-    superhero,
-    publisher,
-    alter_ego,
-    first_appearance,
-    characters
+    superhero, 
+    alter_ego, 
 }) => {
-  
   const heroSrc = `https://raw.githubusercontent.com/alexandercddev/heroes-app/master/assets/images/${id}.jpg`;
   return (
     <div className='col'>
