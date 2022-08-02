@@ -10,7 +10,7 @@ export const HeroItem = ({
     characters
 }) => {
   
-  const heroSrc = new URL(`/assets/images/${id}.jpg`, import.meta.url).href;
+  const heroSrc = `https://raw.githubusercontent.com/alexandercddev/heroes-app/master/assets/images/${id}.jpg`;
   return (
     <div className='col'>
         <div className='card'>
