@@ -1,4 +1,5 @@
 import React from 'react'; 
+import { Link } from 'react-router-dom';
 
 export const HeroItem = ({
     id,
@@ -19,8 +20,16 @@ export const HeroItem = ({
             <div className='col-8'>
               <div className='card-body'>
                 <h5 className='card-title' >{superhero}</h5>
-                <p className='card-text'>{alter_ego}</p>
-                <p>{characters}</p>
+                <p className='card-text'>
+                  <small className='text-muted'>
+                    {alter_ego}
+                  </small>
+                </p>
+                <div className="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <Link to={`/hero/${id}`} className='btn btn-sm btn-outline-info'>
+                    More...
+                  </Link>
+                </div> 
               </div>
             </div>
           </div>
