@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'; 
 
 export const HeroItem = ({
     id,
@@ -8,7 +8,7 @@ export const HeroItem = ({
     first_appearance,
     characters
 }) => {
-  const heroSrc = `/assets/images/${id}.jpg`;
+  const heroSrc = `./assets/images/${id}.jpg`;
   return (
     <div className='col'>
         <div className='card'>
