@@ -9,7 +9,8 @@ export const HeroItem = ({
     first_appearance,
     characters
 }) => {
-  const heroSrc = `./assets/images/${id}.jpg`;
+  
+  const heroSrc = new URL(`/assets/images/${id}.jpg`, import.meta.url).href;
   return (
     <div className='col'>
         <div className='card'>
