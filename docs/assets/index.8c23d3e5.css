@@ -1,0 +1,1 @@
+.logo-react{animation:rotate 5s ease infinite}.logo-react:hover{filter:drop-shadow(0 0 2em #61dafbaa)}.card{filter:drop-shadow(0 0 .35em rgba(0,0,0,.2));transition:all}.card:hover{transform:scale(1.02)}@keyframes rotate{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
